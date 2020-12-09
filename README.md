@@ -3,9 +3,9 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 
 ||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
-| ![Imgur](https://imgur.com/7CVHDCG) | ![Imgur](scrrenshots/2.png) | ![Imgur](scrrenshots/3.png) |
-| ![Imgur](scrrenshots/4.png) | ![Imgur](scrrenshots/5.png) | ![Imgur](scrrenshots/6.png) |
-| ![Imgur](scrrenshots/7.png) | ![Imgur](scrrenshots/8.png) | ![Imgur](scrrenshots/9.png) |
+| ![Imgur](https://imgur.com/7CVHDCG) | ![Imgur](screenshots/2.png) | ![Imgur](screenshots/3.png) |
+| ![Imgur](screenshots/4.png) | ![Imgur](screenshots/5.png) | ![Imgur](screenshots/6.png) |
+| ![Imgur](screenshots/7.png) | ![Imgur](screenshots/8.png) | ![Imgur](screenshots/9.png) |
 
 
 ## ⚙️ Detailed Functionality
