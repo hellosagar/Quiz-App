@@ -25,13 +25,13 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 | ![Imgur](screenshots/6.png) | ![Imgur](screenshots/7.png) | ![Imgur](screenshots/8.png) |
 | ![Imgur](screenshots/9.png) | ![Imgur](screenshots/9.png) | ![Imgur](screenshots/10.png) |
 
-## Try App
+# Try App
 
- # Scan qr
+ ## Scan qr
  <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCode.png"
 width="200" height="200"> 
 
 ___
 
-# Get apk
+## Get apk
 [Download here](https://raw.githubusercontent.com/danishjamal104/Pets/master/Apk/app-release.apk)
