@@ -1,6 +1,8 @@
 # Quiz App
 A Quiz Android application 📱 built using Java ♨️ and showing best practices of 🛠️ Room
 
+################### 📸 Screenshots
+
 ||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
 | ![Imgur](screenshots/0.png) | ![Imgur](screenshots/1.png) | ![Imgur](screenshots/2.png) |
