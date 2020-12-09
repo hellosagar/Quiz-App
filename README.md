@@ -10,7 +10,7 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 * Showing the result at the end the Quiz.
 * Implemented login, register,edit password, previous attempts all using SQL Lite DB using Room 
 
-## 🚀 Tools Used
+## 🚀 Technology Used
 
 * Quiz App is build using Java
 * Asynctask for asynchronous
