@@ -3,10 +3,10 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 
 ||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
-| ![Imgur](7CVHDCG) | ![Imgur](ss/2.jpg) | ![Imgur](ss/3.jpg) |
+| ![Imgur](https://imgur.com/7CVHDCG) | ![Imgur](ss/2.jpg) | ![Imgur](ss/3.jpg) |
 | ![Imgur](ss/4.jpg) | ![Imgur](ss/5.jpg) | ![Imgur](ss/6.jpg) |
 | ![Imgur](ss/7.jpg) | ![Imgur](ss/8.jpg) | ![Imgur](ss/9.jpg) |
-https://imgur.com/7CVHDCG
+
 
 ## ⚙️ Detailed Functionality
 * ESP for Pubg Mobile works by executing native CPP files with root access 
