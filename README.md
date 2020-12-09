@@ -37,7 +37,5 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
  <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCodeForApk.png"
 width="200" height="200"> 
 
-___
-
 ## Get Apk
 [Download here](https://raw.githubusercontent.com/pikachu404/Quiz-App/master/app/release/app-release.apk)
