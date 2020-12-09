@@ -28,10 +28,10 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 # Try App
 
  ## Scan qr
- <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCode.png"
+ <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qr.png"
 width="200" height="200"> 
 
 ___
 
 ## Get apk
-[Download here](https://raw.githubusercontent.com/danishjamal104/Pets/master/Apk/app-release.apk)
+[Download here](https://raw.githubusercontent.com/pikachu404/Quiz-App/master/app/release/app-release.apk)
