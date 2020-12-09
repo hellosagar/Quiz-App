@@ -25,6 +25,12 @@ A Quiz Android application 📱 built using Java ♨️ and showing best practic
 | ![Imgur](screenshots/6.png) | ![Imgur](screenshots/7.png) | ![Imgur](screenshots/8.png) |
 | ![Imgur](screenshots/9.png) | ![Imgur](screenshots/9.png) | ![Imgur](screenshots/10.png) |
 
+## Third-party
+```sh
+* Room Persistence Library 2.2.5
+* Gson 2.8.6
+```
+
 # Try App
 
  ## Scan QR Code
