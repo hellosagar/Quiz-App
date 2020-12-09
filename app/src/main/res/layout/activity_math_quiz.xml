@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathQuizActivity">
+
+    <ImageView
+        android:id="@+id/imageViewStartQuiz"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/math_quiz"
+        style="@style/titleTextStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewStartQuiz"
+        app:layout_constraintStart_toEndOf="@+id/imageViewStartQuiz"
+        app:layout_constraintTop_toTopOf="@+id/imageViewStartQuiz" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="2 + 2 = ?" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutEnterAnswerMath"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietEnterAnswerMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/enter_answer"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNextQuestionMath"
+        style="@style/btnStyle"
+        android:layout_width="0dp"
+        android:layout_marginBottom="40dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutEnterAnswerMath"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutEnterAnswerMath" />
+
+    <TextView
+        android:id="@+id/tvQuestionNumberMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnNextQuestionMath"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutEnterAnswerMath"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutEnterAnswerMath"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEnterAnswerMath"
+        tools:text="Current Question: 2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

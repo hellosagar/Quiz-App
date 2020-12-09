@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="edit_text_corner_radius">12dp</dimen>
+
+    <dimen name="btn_height">70dp</dimen>
+
+    <dimen name="margin_start">24dp</dimen>
+    <dimen name="margin_end">24dp</dimen>
+
+    <dimen name="btn_radius">100dp</dimen>
+
+    <dimen name="home_card_height">140dp</dimen>
+
+    <dimen name="home_image_view_size">64dp</dimen>
+
+    <dimen name="start_quiz_image_view_size">80dp</dimen>
+
+</resources>

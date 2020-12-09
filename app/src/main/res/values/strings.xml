@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">QuizForFun</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to continue</string>
+
+    <string name="username_cannot_empty">Username cannot be empty</string>
+    <string name="password_cannot_empty">Password cannot be empty</string>
+    <string name="old_password_cannot_be_empty">Old Password cannot be empty</string>
+    <string name="new_password_cannot_be_empty">New Password cannot be empty</string>
+    <string name="confirm_new_password_cannot_be_empty">Confirm New Password cannot be empty</string>
+    <string name="password_must_be_same">Password must be same</string>
+    <string name="new_password_must_be_different">New Password must be different</string>
+    <string name="email_cannot_empty">Email cannot be empty</string>
+    <string name="email_not_valid">Email must be valid</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="create_account">Create Account</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="rules">Rules</string>
+    <string name="history">History</string>
+    <string name="menu">Menu</string>
+    <string name="quiz_option">Quiz Option</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="logout">Logout</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="create">Create</string>
+    <string name="save_password">Save Password</string>
+    <string name="literature">Literature</string>
+    <string name="geography">Geography</string>
+    <string name="math">Math</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+    <string name="enter_answer">Enter Answer</string>
+    <string name="final_result">Final Result</string>
+    <string name="subject">Subject :</string>
+    <string name="correct">Correct :</string>
+    <string name="incorrect">Incorrect :</string>
+    <string name="earned">Earned :</string>
+    <string name="total_questions">Total Questions :</string>
+    <string name="overall_points">Overall Points :</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="literature_quiz">Literature Quiz</string>
+    <string name="geography_quiz">Geography Quiz</string>
+    <string name="date">Date :</string>
+    <string name="start_again">Start Again!</string>
+
+    <string name="rules_description">
+        The Quiz will contain 5 randomized questions.\n
+        Every correct answer scores you 5 points.\n
+        Every wrong answer deduct you 2 points\n
+        Your results will be saved and will be accumulated in your history.
+    </string>
+
+</resources>

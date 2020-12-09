@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<androidx.room>
+  <room-common versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-compiler versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-compiler-processing versions="2.3.0-alpha03"/>
+  <room-coroutines versions="2.1.0-alpha03,2.1.0-alpha04"/>
+  <room-guava versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-ktx versions="2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-migration versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-runtime versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-rxjava2 versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-rxjava3 versions="2.3.0-alpha02,2.3.0-alpha03"/>
+  <room-testing versions="2.0.0-alpha1,2.0.0-beta01,2.0.0-rc01,2.0.0,2.1.0-alpha01,2.1.0-alpha02,2.1.0-alpha03,2.1.0-alpha04,2.1.0-alpha05,2.1.0-alpha06,2.1.0-alpha07,2.1.0-beta01,2.1.0-rc01,2.1.0,2.2.0-alpha01,2.2.0-alpha02,2.2.0-beta01,2.2.0-rc01,2.2.0,2.2.1,2.2.2,2.2.3,2.2.4,2.2.5,2.3.0-alpha01,2.3.0-alpha02,2.3.0-alpha03"/>
+</androidx.room>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeographyOrLiteratureQuizActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/imageViewStartQuizGeographyOrLiterature"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/arrow"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/textView26"
+                style="@style/titleTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewStartQuizGeographyOrLiterature"
+                app:layout_constraintStart_toEndOf="@+id/imageViewStartQuizGeographyOrLiterature"
+                app:layout_constraintTop_toTopOf="@+id/imageViewStartQuizGeographyOrLiterature"
+                tools:text="@string/literature_quiz" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="24dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                tools:text="What is the
+last name of Hitler?" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNextQuestionLiteratureAndGeography"
+                style="@style/btnStyle"
+                android:layout_width="0dp"
+                android:layout_marginBottom="40dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:text="@string/next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/textView78"
+                app:layout_constraintStart_toStartOf="@+id/textView78" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:checkedButton="@id/radioButton1"
+
+                app:layout_constraintEnd_toEndOf="@+id/textView78"
+                app:layout_constraintStart_toStartOf="@+id/textView78"
+                app:layout_constraintTop_toBottomOf="@+id/textView78">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    style="@style/text_radio_button_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Answer 1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    style="@style/text_radio_button_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Answer 2" />
+
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    style="@style/text_radio_button_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Answer 3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    style="@style/text_radio_button_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Answer 4" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnNextQuestionLiteratureAndGeography"
+                app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+                app:layout_constraintStart_toStartOf="@+id/radioGroup"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                tools:text="Current Question: 2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
