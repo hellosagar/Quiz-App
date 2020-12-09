@@ -1,7 +1,7 @@
 ## Quiz App
 A Quiz Android application 📱 built using Java ♨️ and showing best practices of 🛠️ Room
 
-## ⚙️ Features
+## ⭐ Features
 * App consists of Quiz of primarily three subject - Maths, Geography, Lireature
 * Maintainng history of previous attempts of quiz using Room.
 * You can swtich users using the Login/Register
