@@ -2,7 +2,7 @@
 A Quiz Android application 📱 built using Java ♨️ and showing best practices of 🛠️ Room
 
 ## ⚙️ Features
-* App consists of Quiz of primarily three subject - Maths, Geography, Lireature
+* App consists of Quiz of primarily three subject - Maths, Geography, Literature
 * Maintainng history of previous attempts of quiz using Room.
 * You can swtich users using the Login/Register
 * Feature to change to your current password
