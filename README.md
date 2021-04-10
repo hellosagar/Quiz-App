@@ -11,8 +11,8 @@ width="200" height="200">
 ------------
 ## ⚙️ Features
 * App consists of Quiz of primarily three subject - Maths, Geography, Literature
-* Maintainng history of previous attempts of quiz using Room.
-* You can swtich users using the Login/Register
+* Maintaining history of previous attempts of quiz using Room.
+* You can switch users using the Login/Register
 * Feature to change to your current password
 * Added loader while data is being fetched from API
 * Showing the result at the end the Quiz.
