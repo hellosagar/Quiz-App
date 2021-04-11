@@ -38,6 +38,8 @@ width="200" height="200">
 * Room Persistence Library 2.2.5
 * Gson 2.8.6
 ```
+
+## License
 ```
 MIT License
 
