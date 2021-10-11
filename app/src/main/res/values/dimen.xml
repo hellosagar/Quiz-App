@@ -14,6 +14,8 @@
 
     <dimen name="home_image_view_size">64dp</dimen>
 
+    <dimen name="icon_image_view_size">25dp</dimen>
+
     <dimen name="start_quiz_image_view_size">80dp</dimen>
 
 </resources>

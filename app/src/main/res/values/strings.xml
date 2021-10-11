@@ -51,11 +51,16 @@
     <string name="date">Date :</string>
     <string name="start_again">Start Again!</string>
 
-    <string name="rules_description">
-        The Quiz will contain 5 randomized questions.\n
-        Every correct answer scores you 5 points.\n
-        Every wrong answer deduct you 2 points\n
+    <string name="rules1_description">
+        The Quiz will contain 5 randomized questions.
+    </string>
+    <string name="rules2_description">
+        Every correct answer scores you 5 points.
+    </string>
+    <string name="rules3_description">
+        Every wrong answer deduct you 2 points.
+    </string>
+    <string name="rules4_description">
         Your results will be saved and will be accumulated in your history.
     </string>
-
 </resources>
