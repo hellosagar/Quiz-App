@@ -12,4 +12,7 @@
     <color name="edit_text_bg">#F2F3F7</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="blue_med">#03A9F4</color>
+    <color name="light_blue_med">#89C4DA</color>
+
 </resources>

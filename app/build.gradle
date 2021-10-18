@@ -33,6 +33,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -45,4 +46,7 @@ dependencies {
     // Gson
     implementation 'com.google.code.gson:gson:2.8.6'
 
+    //View Pager Dots Indicator
+    //https://github.com/tommybuonomo/dotsindicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
 }
