@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow"
-        app:tint="@color/black" />
+        app:tint="?attr/tint" />
 
     <TextView
         android:id="@+id/textView"
