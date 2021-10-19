@@ -9,24 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizForFun">
-        <activity android:name=".GeographyOrLiteratureQuizActivity"></activity>
-        <activity android:name=".FinalResultActivity" />
-        <activity android:name=".MathQuizActivity" />
-        <activity android:name=".EditPasswordActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".RuleActivity" />
-        <activity android:name=".QuizOptionActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".GeographyOrLiteratureQuizActivity"
+            android:exported="true" />
+        <activity android:name=".FinalResultActivity"
+            android:exported="true"/>
+        <activity android:name=".MathQuizActivity"
+            android:exported="true"/>
+        <activity android:name=".EditPasswordActivity"
+            android:exported="true"/>
+        <activity android:name=".HistoryActivity"
+            android:exported="true"/>
+        <activity android:name=".RuleActivity"
+            android:exported="true"/>
+        <activity android:name=".QuizOptionActivity"
+            android:exported="true"/>
+        <activity android:name=".RegisterActivity"
+            android:exported="true"/>
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/splashScreenTheme">
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

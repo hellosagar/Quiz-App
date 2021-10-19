@@ -12,9 +12,12 @@
         <item name="textInputStyle">@style/editTextLayoutStyle</item>
     </style>
 
-    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_image</item>
-        <item name="android:statusBarColor">@color/white</item>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.QuizForFun</item>  # Required.
     </style>
 
 <!--    <style name="editTextStyle" parent="">-->
