@@ -48,6 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username"
+            android:drawableStart="@drawable/ic_user_gray"
+            android:drawablePadding="10dp"
             android:imeOptions="actionNext"
             android:inputType="text"
             android:singleLine="true" />
@@ -57,6 +59,7 @@
         android:id="@+id/textInputLayout2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout"
@@ -67,6 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
+            android:drawableStart="@drawable/ic_lock_gray"
+            android:drawablePadding="10dp"
             android:imeOptions="actionDone"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>

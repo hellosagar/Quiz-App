@@ -46,6 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username"
+            android:drawableStart="@drawable/ic_user_gray"
+            android:drawablePadding="10dp"
             android:imeOptions="actionNext"
             android:inputType="text"
             android:singleLine="true" />
@@ -68,6 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
+            android:drawableStart="@drawable/ic_email_gray"
+            android:drawablePadding="10dp"
             android:imeOptions="actionNext"
             android:inputType="textEmailAddress"
             android:singleLine="true" />
@@ -79,6 +83,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword">
@@ -88,6 +93,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
+            android:drawableStart="@drawable/ic_lock_gray"
+            android:drawablePadding="10dp"
             android:imeOptions="actionDone"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>

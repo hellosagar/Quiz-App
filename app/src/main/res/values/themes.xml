@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.QuizForFun" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.QuizForFun" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/peach</item>
         <item name="colorPrimaryVariant">@color/peach</item>
